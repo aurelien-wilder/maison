@@ -1,10 +1,7 @@
 #!/bin/bash
 
-# URL du fichier compressé contenant le labyrinthe
-Maison_URL="https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz"
-
 # Télécharger le fichier compressé
-wget -O maison.tar.gz "$Maison_URL"
+wget -O maison.tar.gz "https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz"
 
 # Vérifier si le téléchargement a réussi
 if [ $? -eq 0 ]; then
