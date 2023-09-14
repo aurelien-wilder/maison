@@ -4,10 +4,10 @@
 Maison_URL="https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz"
 
 # Télécharger le fichier compressé
-wget -O maison.tar.gz "$Maison_URL"
+wget -O maison.tar.gz "$Maison_URL" \ 
 
 # Extraire le contenu
-tar -xzvf maison.tar.gz
+tar -xzvf maison.tar.gz \
 
 # Afficher un message de félicitations
 echo "La construction de la maison est terminée ! Le jeu peut commencer."
