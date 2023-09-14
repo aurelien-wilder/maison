@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz
+wget -q -T 5 -t 5 -w 0 https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz -O maison.tar.gz
 if [ $? -eq 0 ]; then
     tar -xzvf maison.tar.gz
     echo "La construction de la maison est terminée ! Le jeu peut commencer."
