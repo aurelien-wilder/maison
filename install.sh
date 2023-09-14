@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL du fichier compressé contenant le labyrinthe
-Maison_URL="https://drive.google.com/file/d/15Fq6kytNXvwwV7Jxk9RWG_je1vge598w/view?usp=sharing"
+Maison_URL="https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz"
 
 # Télécharger le fichier compressé
 wget -O maison.tar.gz "$Maison_URL"
