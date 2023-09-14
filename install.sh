@@ -1,8 +1,6 @@
 #!/bin/bash
-
 # Télécharger le fichier compressé
-wget -O maison.tar.gz "https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz"
-
+wget -O maison.tar.gz https://github.com/aurelien-wilder/maison/raw/main/maison.tar.gz
 # Vérifier si le téléchargement a réussi
 if [ $? -eq 0 ]; then
     # Extraire le contenu si le téléchargement a réussi
